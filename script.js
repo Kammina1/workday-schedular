@@ -1,6 +1,8 @@
+// Display the current date here
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
 
+// Compare the current hour of the day to different work day hours
 function hourColor() {
     var currentHour = moment().hour();
     console.log(currentHour);
@@ -18,7 +20,7 @@ function hourColor() {
     } 
 } 
 hourColor();
-
+// Create a function to store the users data 
 function userInput(id) {
     var input = document.getElementById("input" + id)
     localStorage.setItem("id" + id, input.value);
