@@ -8,11 +8,12 @@ body {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: black !important;
   border-left: 1px solid black;
+  border-top: 1px dashed white;
   padding: 10px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .jumbotron {
@@ -46,7 +47,7 @@ body {
   align-items: center;
   justify-content: centers;
   border-right: 2px solid black;
-  height: 80px;
+  height: 11vh;
 }
 
 .past {
